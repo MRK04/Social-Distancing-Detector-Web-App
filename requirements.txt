@@ -1,0 +1,8 @@
+Flask==2.0.2
+Werkzeug==2.0.2
+numpy==1.19.5
+scipy>=0.15.1
+imutils==0.5.4
+opencv-python==4.5.3.56
+Python==3.9.0
+urllib.request==3.7
