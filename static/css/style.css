@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.navbar{
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand img{
+  height: 2rem;
+}
+
+.video-background{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.caption{
+  position: absolute;
+  top: 38%;
+  width: 100%;
+  color: white;
+}
+
+.caption h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-shadow: 0.1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  font-size: 2rem;
+  text-shadow: 0.1rem .1rem .5rem black;
+  padding-bottom: 1.6rem; 
+}
+
+.btn-lg{
+  border-width: medium;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  padding: .6rem 1.3rem;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .caption h1{
+    font-size: 1.4rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+
+  .caption h3{
+    font-size: 1.1rem;
+    padding-bottom: 1.2rem; 
+  }
+
+  .btn-lg{
+    font-size: 1rem;
+    padding: .5rem 1rem;
+  }
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
